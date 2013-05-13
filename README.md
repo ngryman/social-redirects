@@ -54,11 +54,13 @@ Just copy and paste the config fragment to you blog server config, and replace `
 If you are using **Github Pages** to host your blog, or anything similar, you can simply drop all folders in **static**
 at the root level of your blog. They each contain a simple `index.html` to do the redirect.
 
-### Webbap config
+### Webapp config
 
-If for any reason, your blog is a *one page webapp*, just copy and past the code fragment to handle redirections, before
+If for any reason, your blog is a *one page webapp*, just copy and paste the code fragment to handle redirection, before
 any other routing code.
 
 ## Contribute!
 
-Every new server config, network, idea is welcomed. They all can land in a new issue, or a pull request.
+Any new server config, network, idea is welcomed. They all can land in a new issue, or a pull request.
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/5ac49dc572a88b74b54470a3cbde3b4b "githalytics.com")](http://githalytics.com/ngryman/social-redirects)

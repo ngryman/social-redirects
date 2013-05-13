@@ -1,4 +1,4 @@
-app.get(/ˆ\/(@|~|+|f|in)$/, function(req, res) {
+app.get(/^\/(@|~|\+|f|in)$/, function(req, res) {
 	res.redirect({
 		'@':  'https://twitter.com/:you',
 		'~':  'https://github.com/:you',
