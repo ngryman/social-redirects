@@ -1,0 +1,7 @@
+<IfModule mod_alias.c>
+	Redirect permanent /@  https://twitter.com/:you
+	Redirect permanent /~  https://github.com/:you
+	Redirect permanent /+  https://plus.google.com/:you
+	Redirect permanent /f  https://facebook.com/:you
+	Redirect permanent /in https://linkedin.com/in/:you
+</IfModule>
