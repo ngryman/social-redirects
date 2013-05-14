@@ -3,7 +3,7 @@ app.get(/^\/(@|~|\+|f|in)$/, function(req, res) {
 		'@':  'https://twitter.com/:you',
 		'~':  'https://github.com/:you',
 		'+':  'https://plus.google.com/:you',
-		'f':  'https://facebook.com/:you',
+		'f':  'https://www.facebook.com/:you',
 		'in': 'https://linkedin.com/in/:you'
 	}[req.params[0]], 301);
 });
