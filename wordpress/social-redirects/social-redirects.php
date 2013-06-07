@@ -20,7 +20,7 @@ function social_redirects() {
     );
 
     foreach ($redirects as $from => $to) {
-        if ($wp_query->query['name'] == $from) {
+        if (!empty($wp_query->query) && $wp_query->query['pagename'] == $from) {
             wp_redirect($to, 301);
             exit;
         }
