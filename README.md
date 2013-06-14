@@ -59,7 +59,7 @@ at the root level of your blog. They each contain a simple `index.html` to do th
 If for any reason, your blog is a *one page webapp*, just copy and paste the code fragment to handle redirection, before
 any other routing code.
 
-## Wordpress plugin
+### Wordpress plugin
 
 Copy the `wordpress/social-redirects` directory into the WordPress Plugins directory which is usually `wp-content/plugins`.
 
