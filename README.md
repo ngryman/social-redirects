@@ -66,5 +66,3 @@ Copy the `wordpress/social-redirects` directory into the WordPress Plugins direc
 ## Contribute!
 
 Any new server config, network, idea is welcomed. They all can land in a new issue, or a pull request.
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/5ac49dc572a88b74b54470a3cbde3b4b "githalytics.com")](http://githalytics.com/ngryman/social-redirects)
